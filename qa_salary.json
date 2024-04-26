@@ -1,0 +1,222 @@
+[
+    {
+        "question": "\u5217\u51fa\u5c5e\u4e8e\u7fdf\u9547\u7164\u77ff\u7684\u6240\u6709\u8bb0\u5f55\u7684\u77ff\u540d\u79f0\u548cid",
+        "sql": "select orgName,id from temp_month_salary where orgName like '%\u7fdf\u9547\u7164\u77ff%'"
+    },
+    {
+        "question": "\u5217\u51fa\u5c5e\u4e8e\u7fdf\u9547\u7164\u77ff\u7684\u6240\u6709\u8bb0\u5f55\u7684\u77ff\u540d\u79f0\u548c\u77ffid",
+        "sql": "select orgName,orgId from temp_month_salary where orgName like '%\u7fdf\u9547\u7164\u77ff%'"
+    },
+    {
+        "question": "\u5217\u51fa\u5c5e\u4e8e\u7fdf\u9547\u7164\u77ff\u7684\u6240\u6709\u8bb0\u5f55\u7684\u77ff\u540d\u79f0\u548c\u77ffID",
+        "sql": "select orgName,orgId from temp_month_salary where orgName  like '%\u7fdf\u9547\u7164\u77ff%'"
+    },
+    {
+        "question": "\u5217\u51fa\u5c5e\u4e8e\u7fdf\u9547\u7164\u77ff\u7684\u6240\u6709\u8bb0\u5f55\u7684\u77ff\u540d\u79f0\u548c\u6708\u4efd",
+        "sql": "select orgName,stlMonth from temp_month_salary where orgName  like '%\u7fdf\u9547\u7164\u77ff%'"
+    },
+    {
+        "question": "\u5217\u51fa\u5c5e\u4e8e\u7fdf\u9547\u7164\u77ff\u7684\u6240\u6709\u8bb0\u5f55\u7684\u77ff\u540d\u79f0\u548c\u5e02\u573a\u4e3b\u4f53",
+        "sql": "select orgName,subjectName  from temp_month_salary where orgName  like '%\u7fdf\u9547\u7164\u77ff%'"
+    },
+    {
+        "question": "\u5217\u51fa\u5c5e\u4e8e\u7fdf\u9547\u7164\u77ff\u7684\u6240\u6709\u8bb0\u5f55\u7684\u77ff\u540d\u79f0\u548c\u79d1\u76ee\u540d\u79f0",
+        "sql": "select orgName,itemName  from temp_month_salary where orgName  like '%\u7fdf\u9547\u7164\u77ff%'"
+    },
+    {
+        "question": "\u5217\u51fa\u5c5e\u4e8e\u7fdf\u9547\u7164\u77ff\u7684\u6240\u6709\u8bb0\u5f55\u7684\u77ff\u540d\u79f0\u548c\u7ed3\u7b97\u503c\u548c\u5355\u4f4d",
+        "sql": "select orgName,amount,unit  from temp_month_salary where orgName  like '%\u7fdf\u9547\u7164\u77ff%'"
+    },
+    {
+        "question": "\u5217\u51fa\u5c5e\u4e8e\u7fdf\u9547\u7164\u77ff\u7684\u6240\u6709\u8bb0\u5f55\u7684\u6240\u5c5e\u77ff\u540d\u79f0\u548cid",
+        "sql": "select orgName,id from temp_month_salary where orgName  like '%\u7fdf\u9547\u7164\u77ff%'"
+    },
+    {
+        "question": "\u5217\u51fa\u5c5e\u4e8e\u7fdf\u9547\u7164\u77ff\u7684\u6240\u6709\u8bb0\u5f55\u7684\u6240\u5c5e\u77ff\u540d\u79f0\u548c\u6240\u5c5e\u77ffid",
+        "sql": "select orgName,orgId from temp_month_salary where orgName  like '%\u7fdf\u9547\u7164\u77ff%'"
+    },
+    {
+        "question": "\u5217\u51fa\u5c5e\u4e8e\u7fdf\u9547\u7164\u77ff\u7684\u6240\u6709\u8bb0\u5f55\u7684\u6240\u5c5e\u77ff\u540d\u79f0\u548c\u6240\u5c5e\u77ffID",
+        "sql": "select orgName,orgId from temp_month_salary where orgName  like '%\u7fdf\u9547\u7164\u77ff%'"
+    },
+    {
+        "question": "\u5217\u51fa\u5c5e\u4e8e\u7fdf\u9547\u7164\u77ff\u7684\u6240\u6709\u8bb0\u5f55\u7684\u6240\u5c5e\u77ff\u540d\u79f0\u548c\u6708\u4efd",
+        "sql": "select orgName,stlMonth from temp_month_salary where orgName  like '%\u7fdf\u9547\u7164\u77ff%'"
+    },
+    {
+        "question": "\u5217\u51fa\u5c5e\u4e8e\u7fdf\u9547\u7164\u77ff\u7684\u6240\u6709\u8bb0\u5f55\u7684\u6240\u5c5e\u77ff\u540d\u79f0\u548c\u5e02\u573a\u4e3b\u4f53",
+        "sql": "select orgName,subjectName  from temp_month_salary where orgName  like '%\u7fdf\u9547\u7164\u77ff%'"
+    },
+    {
+        "question": "\u5217\u51fa\u5c5e\u4e8e\u7fdf\u9547\u7164\u77ff\u7684\u6240\u6709\u8bb0\u5f55\u7684\u6240\u5c5e\u77ff\u540d\u79f0\u548c\u79d1\u76ee\u540d\u79f0",
+        "sql": "select orgName,itemName  from temp_month_salary where orgName  like '%\u7fdf\u9547\u7164\u77ff%'"
+    },
+    {
+        "question": "\u5217\u51fa\u5c5e\u4e8e\u7fdf\u9547\u7164\u77ff\u7684\u6240\u6709\u8bb0\u5f55\u7684\u6240\u5c5e\u77ff\u540d\u79f0\u548c\u7ed3\u7b97\u503c\u548c\u5355\u4f4d",
+        "sql": "select orgName,amount,unit  from temp_month_salary where orgName  like '%\u7fdf\u9547\u7164\u77ff%'"
+    },
+    {
+        "question": "\u7fdf\u9547\u7164\u77ff\u91c7\u7164\u4e00\u533a2024\u5e743\u6708\u5e02\u573a\u5316\u4eba\u5747\u5de5\u8d44\u662f\u591a\u5c11\uff1f",
+        "sql": "select  amount,itemName \nfrom temp_month_salary \nwhere orgName like '%\u7fdf\u9547\u7164\u77ff%' and subjectName='\u91c7\u7164\u4e00\u533a' and stlMonth='2024-03'\nand itemName like '%\u5e02\u573a\u5316\u4eba\u5747\u5de5\u8d44%'"
+    },
+    {
+        "question": "\u7fdf\u9547\u7164\u77ff\u91c7\u7164\u4e00\u533a2022\u5e749\u6708\u4eba\u5747\u5de5\u8d44\u662f\u591a\u5c11\uff1f",
+        "sql": "select  amount,itemName \nfrom temp_month_salary \nwhere orgName like '%\u7fdf\u9547\u7164\u77ff%' and subjectName='\u91c7\u7164\u4e00\u533a' and stlMonth='2022-09'\nand itemName like '%\u4eba\u5747\u5de5\u8d44%'"
+    },
+    {
+        "question": "\u7fdf\u9547\u7164\u77ff\u91c7\u7164\u4e00\u533a2023\u5e749\u6708\u5e02\u573a\u5316\u5151\u73b0\u5de5\u8d44\u662f\u591a\u5c11\uff1f",
+        "sql": "select  amount as '\u7ed3\u7b97\u503c'\nfrom temp_month_salary \nwhere orgName like '%\u7fdf\u9547\u7164\u77ff%' and subjectName='\u91c7\u7164\u4e00\u533a' and stlMonth='2023-09'\nand itemName like '%\u5e02\u573a\u5316\u5151\u73b0\u5de5\u8d44%'"
+    },
+    {
+        "question": "\u7fdf\u9547\u7164\u77ff\u91c7\u7164\u4e00\u533a2023\u5e749\u6708\u5e02\u573a\u5316\u5de5\u8d44\u603b\u989d\u662f\u591a\u5c11\uff1f",
+        "sql": "select  amount as '\u7ed3\u7b97\u503c',itemName as '\u79d1\u76ee\u540d\u79f0'\nfrom temp_month_salary \nwhere orgName like '%\u7fdf\u9547\u7164\u77ff%'   and subjectName='\u91c7\u7164\u4e00\u533a' and stlMonth='2023-09'\nand itemName like '%\u5e02\u573a\u5316\u5de5\u8d44\u603b\u989d%'"
+    },
+    {
+        "question": "\u7fdf\u9547\u7164\u77ff2024\u5e743\u6708\u54ea\u4e2a\u533a\u961f\u4eba\u5747\u5de5\u8d44\u6700\u9ad8\uff1f",
+        "sql": "select  max(amount) as '\u6700\u9ad8\u5de5\u8d44',subjectName   \nfrom temp_month_salary \nwhere orgName like '%\u7fdf\u9547\u7164\u77ff%'  and stlMonth='2024-03'\nand itemName like '%\u4eba\u5747\u5de5\u8d44%'\nGROUP BY subjectName"
+    },
+    {
+        "question": "\u534e\u4e30\u7164\u77ff\u7efc\u91c7\u4e00\u533a2024\u5e741\u6708\u4efd\u5e02\u573a\u5316\u5de5\u8d44\u7ed3\u7b97\u660e\u7ec6\uff0c\u8bf7\u5217\u51fa\u3002",
+        "sql": "SELECT *\nFROM temp_month_salary\nWHERE orgName like '%\u534e\u4e30\u7164\u77ff%'\nAND subjectName = '\u7efc\u91c7\u4e00\u533a'\nAND stlMonth = '2024-01';"
+    },
+    {
+        "question": "\u534e\u4e30\u7164\u77ff\u7efc\u91c7\u4e00\u533a2024\u5e741-12\u6708\u4efd\u5e02\u573a\u5316\u5de5\u8d44\u7ed3\u7b97\u660e\u7ec6\uff0c\u8bf7\u5217\u51fa\u3002",
+        "sql": "SELECT *\nFROM temp_month_salary\nWHERE orgName  like '%\u534e\u4e30\u7164\u77ff%'\nAND subjectName = '\u7efc\u91c7\u4e00\u533a'\nAND stlMonth BETWEEN '2024-01' AND '2024-12';"
+    },
+    {
+        "question": "\u534e\u4e30\u7164\u77ff\u7efc\u91c7\u4e00\u533a2024\u5e74\u4e00\u5b63\u5ea6\u5e02\u573a\u5316\u5de5\u8d44\u7ed3\u7b97\u660e\u7ec6\uff0c\u8bf7\u5217\u51fa\u3002",
+        "sql": "SELECT *\nFROM temp_month_salary\nWHERE orgName  like '%\u534e\u4e30\u7164\u77ff%'\n    AND subjectName = '\u7efc\u91c7\u4e00\u533a'\n    AND stlMonth BETWEEN '2024-01' AND '2024-03';"
+    },
+    {
+        "question": "\u534e\u4e30\u7164\u77ff\u7efc\u91c7\u4e00\u533a2023\u5e745\u6708\u4efd\u533a\u961f\u6708\u5ea6\u5e73\u5747\u5de5\u8d44\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT itemName,amount\nFROM temp_month_salary\nWHERE orgName  like '%\u534e\u4e30\u7164\u77ff%'\n    AND subjectName LIKE '%\u7efc\u91c7\u4e00\u533a%'\n    AND stlMonth = '2023-05'\n    AND itemName in ('\u4eba\u5747\u5de5\u8d44','\u5e73\u5747\u5de5\u8d44','\u5e02\u573a\u5316\u4eba\u5747\u5de5\u8d44','\u5e02\u573a\u5316\u5e73\u5747\u5de5\u8d44')"
+    },
+    {
+        "question": "\u534e\u4e30\u7164\u77ff\u7efc\u91c7\u4e00\u533a2023\u5e746\u6708\u4efd\u5de5\u4eba\u6708\u5ea6\u5e73\u5747\u5de5\u8d44\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT itemName,amount\nFROM temp_month_salary\nWHERE orgName  like '%\u534e\u4e30\u7164\u77ff%'\n    AND subjectName LIKE '%\u7efc\u91c7\u4e00\u533a%'\n    AND stlMonth = '2023-06'\n    AND itemName in ('\u5de5\u4eba\u5e73\u5747\u5de5\u8d44','\u5de5\u4eba\u4eba\u5747\u5de5\u8d44')"
+    },
+    {
+        "question": "\u534e\u4e30\u7164\u77ff\u7efc\u91c7\u4e00\u533a2023\u5e747\u6708\u4efd\u7ba1\u7406\u4eba\u5458\u6708\u5ea6\u5e73\u5747\u5de5\u8d44\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT itemName,amount\nFROM temp_month_salary\nWHERE orgName  like '%\u534e\u4e30\u7164\u77ff%'\n    AND subjectName LIKE '%\u7efc\u91c7\u4e00\u533a%'\n    AND stlMonth = '2023-07'\n    AND itemName in ('\u7ba1\u7406\u4eba\u5458\u5e73\u5747\u5de5\u8d44','\u7ba1\u7406\u4eba\u5458\u4eba\u5747\u5de5\u8d44')"
+    },
+    {
+        "question": "\u534e\u4e30\u7164\u77ff2023\u5e745\u6708\u4efd\u533a\u961f\u6708\u5ea6\u5e73\u5747\u5de5\u8d44\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT AVG(amount) AS avg_manager_salary\nFROM temp_month_salary\nWHERE orgName  like '%\u534e\u4e30\u7164\u77ff%'\n    AND stlMonth = '2023-05'\n    AND itemName like '%\u5e02\u573a\u5316\u5151\u73b0\u5de5\u8d44%'"
+    },
+    {
+        "question": "\u534e\u4e30\u7164\u77ff2023\u5e746\u6708\u4efd\u5de5\u4eba\u6708\u5ea6\u5e73\u5747\u5de5\u8d44\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT itemName,amount\nFROM temp_month_salary\nWHERE orgName  like '%\u534e\u4e30\u7164\u77ff%'\n    AND subjectName LIKE '%\u7efc\u91c7\u4e00\u533a%'\n    AND stlMonth = '2023-06'"
+    },
+    {
+        "question": "\u534e\u4e30\u7164\u77ff2023\u5e747\u6708\u4efd\u7ba1\u7406\u4eba\u5458\u6708\u5ea6\u5e73\u5747\u5de5\u8d44\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT \n    CASE \n        WHEN (SELECT sum(amount) as amount  FROM temp_month_salary WHERE orgName  = '\u534e\u4e30\u7164\u77ff' AND itemName = '\u7ba1\u7406\u4eba\u5458\u4eba\u6570' AND stlMonth = '2023-07' group by subjectName) <> 0 \n        THEN (SELECT sum(amount) as amount FROM temp_month_salary WHERE orgName  ='\u534e\u4e30\u7164\u77ff' AND itemName = '\u7ba1\u7406\u4eba\u5458\u5de5\u8d44\u603b\u989d' AND stlMonth = '2023-07' group by subjectName) /\n             (SELECT amount FROM temp_month_salary WHERE orgName = '\u534e\u4e30\u7164\u77ff' AND itemName = '\u7ba1\u7406\u4eba\u5458\u4eba\u6570' AND stlMonth = '2023-07') \n        ELSE NULL \n    END AS avg_worker_salary;"
+    },
+    {
+        "question": "\u534e\u4e30\u7164\u77ff\u7efc\u91c7\u4e00\u533a\u6bcf\u6708\u5de5\u4eba\u5e02\u573a\u5316\u5de5\u8d44\u7684\u8d8b\u52bf\u5982\u4f55\uff1f",
+        "sql": "select stlMonth,amount,unit\nfrom temp_month_salary \nwhere orgName='\u534e\u4e30\u7164\u77ff'  and subjectName='\u7efc\u91c7\u4e00\u533a'\nand itemName  like '%\u5e02\u573a\u5316\u5151\u73b0\u4eba\u5747\u5de5\u8d44%'  \norder by stlMonth asc "
+    },
+    {
+        "question": "\u534e\u4e30\u7164\u77ff\u6bcf\u6708\u5de5\u4eba\u5e02\u573a\u5316\u5de5\u8d44\u7684\u8d8b\u52bf\u5982\u4f55\uff1f",
+        "sql": "select sum(amount) as '\u6708\u5ea6\u5151\u73b0\u5de5\u8d44\u603b\u989d' ,stlMonth  \nfrom temp_month_salary \nwhere orgName='\u534e\u4e30\u7164\u77ff'  \nand itemName  like '%\u5e02\u573a\u5316\u5151\u73b0\u4eba\u5747\u5de5\u8d44%'  \nGROUP BY stlMonth \norder by stlMonth asc "
+    },
+    {
+        "question": "\u534e\u4e30\u7164\u77ff\u7efc\u91c7\u4e00\u533a2024\u5e743\u6708\u4efd\u7ba1\u7406\u4eba\u5458\u5de5\u8d44\u4e0e\u5de5\u4eba\u5de5\u8d44\u4e4b\u6bd4\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT\n  SUM(CASE WHEN itemName LIKE '%\u7ba1\u7406\u4eba\u5458\u5de5\u8d44%' THEN amount ELSE 0 END) AS manager_salary,\n  SUM(CASE WHEN itemName LIKE '%\u5de5\u4eba\u5de5\u8d44%' THEN amount ELSE 0 END) AS worker_salary,\n  SUM(CASE WHEN itemName LIKE '%\u7ba1\u7406\u4eba\u5458\u5de5\u8d44%' THEN amount ELSE 0 END) / NULLIF(SUM(CASE WHEN itemName LIKE '%\u5de5\u4eba\u5de5\u8d44%' THEN amount ELSE 0 END), 0) AS salary_ratio\nFROM temp_month_salary\nWHERE orgName = '\u534e\u4e30\u7164\u77ff' AND subjectName = '\u7efc\u91c7\u4e00\u533a' AND stlMonth = '2024-03';"
+    },
+    {
+        "question": "\u534e\u4e30\u7164\u77ff2024\u5e743\u6708\u4efd\u7ba1\u7406\u4eba\u5458\u5de5\u8d44\u4e0e\u5de5\u4eba\u5de5\u8d44\u4e4b\u6bd4\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT\n  SUM(CASE WHEN itemName LIKE '%\u7ba1\u7406\u4eba\u5458\u5de5\u8d44%' THEN amount ELSE 0 END) AS manager_salary,\n  SUM(CASE WHEN itemName LIKE '%\u5de5\u4eba\u5de5\u8d44%' THEN amount ELSE 0 END) AS worker_salary,\n  SUM(CASE WHEN itemName LIKE '%\u7ba1\u7406\u4eba\u5458\u5de5\u8d44%' THEN amount ELSE 0 END) / NULLIF(SUM(CASE WHEN itemName LIKE '%\u5de5\u4eba\u5de5\u8d44%' THEN amount ELSE 0 END), 0) AS salary_ratio\nFROM temp_month_salary\nWHERE orgName = '\u534e\u4e30\u7164\u77ff' AND stlMonth = '2024-03';"
+    },
+    {
+        "question": "\u534e\u4e30\u7164\u77ff2023\u5e744\u6708\u5e02\u573a\u5316\u5de5\u8d44\u6536\u5165\u6700\u4f4e\u3001\u6700\u9ad8\u7684\u5e02\u573a\u4e3b\u4f53\u662f\u54ea\u4e9b\uff1f\u5206\u522b\u662f\u591a\u5c11\uff1f",
+        "sql": "(SELECT subjectName, amount\nFROM temp_month_salary\nWHERE orgName = '\u534e\u4e30\u7164\u77ff' AND stlMonth = '2023-04' AND itemName like  '%\u5e02\u573a\u5316\u5de5\u8d44\u603b\u989d%'\norder by amount asc limit 1)\nUNION\n(SELECT subjectName, amount\nFROM temp_month_salary\nWHERE orgName = '\u534e\u4e30\u7164\u77ff' AND stlMonth = '2023-04' AND itemName like  '%\u5e02\u573a\u5316\u5de5\u8d44\u603b\u989d%'\norder by amount desc limit 1)"
+    },
+    {
+        "question": "2023\u5e746\u6708\u534e\u4e30\u7164\u77ff\u5404\u533a\u961f\u5e02\u573a\u5316\u5de5\u8d44\u5360\u6bd4\u5206\u522b\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT \n    CASE \n        WHEN (SELECT sum(amount) as amount  FROM temp_month_salary WHERE orgName = '\u534e\u4e30\u7164\u77ff' AND itemName = '\u5de5\u8d44\u603b\u989d' AND stlMonth = '2023-07' group by subjectName) <> 0 \n        THEN (SELECT sum(amount) as amount FROM temp_month_salary WHERE orgName = '\u534e\u4e30\u7164\u77ff' AND itemName = '\u5e02\u573a\u5316\u5151\u73b0\u5de5\u8d44' AND stlMonth = '2023-07' group by subjectName) /\n             (SELECT amount FROM temp_month_salary WHERE orgName = '\u534e\u4e30\u7164\u77ff' AND itemName = '\u5de5\u8d44\u603b\u989d' AND stlMonth = '2023-07') \n        ELSE NULL \n    END AS avg_worker_salary;"
+    },
+    {
+        "question": "\u534e\u4e30\u77ff\u4eca\u5e74\u533a\u961f\u7ed3\u7b97\u5de5\u8d44",
+        "sql": "SELECT \n    stlMonth,\n    subjectName AS team_name,\n    SUM(amount) AS total_salary\nFROM temp_month_salary\nWHERE orgName like '%\u534e\u4e30\u77ff%'\n    AND itemName like  '%\u7ed3\u7b97\u5de5\u8d44%'\nAND stlMonth BETWEEN CONCAT(YEAR(NOW()), '-01') AND CONCAT(YEAR(NOW()), '-12');\nGROUP BY stlMonth, subjectName\nWITH ROLLUP;"
+    },
+    {
+        "question": "\u534e\u4e30\u77ff\u4eca\u5e74\u501f\u652f\u54ea\u4e2a\u533a\u961f\u6700\u591a\uff1f\u501f\u652f\u4e86\u591a\u5c11\uff1f",
+        "sql": "SELECT \n    subjectName AS team_name,\n    SUM(amount) AS total_loan\nFROM temp_month_salary\nWHERE orgName like '%\u534e\u4e30\u77ff%'\n    AND itemName like  '%\u501f\u652f%'\n   AND stlMonth BETWEEN CONCAT(YEAR(NOW()), '-01') AND CONCAT(YEAR(NOW()), '-12')\nGROUP BY subjectName\nORDER BY total_loan DESC\nLIMIT 1;"
+    },
+    {
+        "question": "\u534e\u4e30\u77ff\u4eca\u5e743\u6708\u4efd\u5404\u533a\u961f\u7684\u5e02\u573a\u5316\u4eba\u5747\u5de5\u8d44\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT \n    subjectName AS team_name,\n    amount AS market_average_salary\nFROM temp_month_salary\nWHERE orgName LIKE '%\u534e\u4e30\u77ff%'\n    AND itemName LIKE '%\u5e02\u573a\u5316\u4eba\u5747\u5de5\u8d44%'\n    AND stlMonth = '2024-03'\nGROUP BY subjectName;"
+    },
+    {
+        "question": "    \u5174\u9686\u5e84\u4eca\u5e743\u6708\u4efd\u7efc\u91c7\u4e00\u533a\u7684\u5de5\u8d44\u603b\u989d\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT \n    amount AS total_salary\nFROM temp_month_salary\nWHERE orgName LIKE '%\u5174\u9686\u5e84%'\n    AND subjectName = '\u7efc\u91c7\u4e00\u533a'\n    AND itemName like  '%\u5de5\u8d44\u603b\u989d%'\n    AND stlMonth LIKE '2024-03%';"
+    },
+    {
+        "question": "    \u5174\u9686\u5e84\u4eca\u5e743\u6708\u4efd\u7efc\u91c7\u4e00\u533a\u7684\u627f\u5305\u5de5\u8d44\u6536\u5165\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT \n    amount AS contracting_income\nFROM temp_month_salary\nWHERE orgName LIKE '%\u5174\u9686\u5e84%'\n    AND subjectName = '\u7efc\u91c7\u4e00\u533a'\n    AND itemName LIKE '%\u627f\u5305\u5de5\u8d44\u6536\u5165%'\n    AND stlMonth LIKE '2024-03%';"
+    },
+    {
+        "question": "    \u5174\u9686\u5e84\u4eca\u5e743\u6708\u4efd\u7efc\u91c7\u4e00\u533a\u7684\u5de5\u8d44\u652f\u51fa\u603b\u989d\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT \n    amount AS contracting_income\nFROM temp_month_salary\nWHERE orgName LIKE '%\u5174\u9686\u5e84%'\n    AND subjectName = '\u7efc\u91c7\u4e00\u533a'\n    AND itemName LIKE '%\u5de5\u8d44\u652f\u51fa\u603b\u989d%'\n    AND stlMonth LIKE '2024-03%';"
+    },
+    {
+        "question": "    \u5174\u9686\u5e84\u4eca\u5e743\u6708\u4efd\u7efc\u91c7\u4e00\u533a\u7684\u627f\u5305\u5de5\u8d44\u6536\u5165\u5360\u603b\u6536\u5165\u7684\u6bd4\u4f8b\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT \n    CASE \n        WHEN (SELECT amount FROM temp_month_salary WHERE orgName LIKE '%\u5174\u9686\u5e84%' AND subjectName = '\u7efc\u91c7\u4e00\u533a' AND itemName LIKE '%\u603b\u6536\u5165%' AND stlMonth LIKE '2024-03%') = 0 \n        THEN NULL \n        ELSE \n            (SELECT amount FROM temp_month_salary WHERE orgName LIKE '%\u5174\u9686\u5e84%' AND subjectName = '\u7efc\u91c7\u4e00\u533a' AND itemName LIKE '%\u627f\u5305\u5de5\u8d44\u6536\u5165%' AND stlMonth LIKE '2024-03%') /\n            (SELECT amount FROM temp_month_salary WHERE orgName LIKE '%\u5174\u9686\u5e84%' AND subjectName = '\u7efc\u91c7\u4e00\u533a' AND itemName LIKE '%\u603b\u6536\u5165%' AND stlMonth LIKE '2024-03%') \n    END AS contracting_income_percentage;"
+    },
+    {
+        "question": "    \u5174\u9686\u5e84\u4eca\u5e743\u6708\u4efd\u7efc\u91c7\u4e00\u533a\u7684\u5de5\u8d44\u652f\u51fa\u5360\u603b\u652f\u51fa\u7684\u6bd4\u4f8b\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT \n    CASE \n        WHEN total_expense.amount = 0 THEN NULL\n        ELSE\n            (SELECT amount FROM temp_month_salary WHERE orgName LIKE '%\u5174\u9686\u5e84%' AND subjectName = '\u7efc\u91c7\u4e00\u533a' AND itemName LIKE '%\u5de5\u8d44\u652f\u51fa%' AND stlMonth LIKE '2024-03%') /\n            total_expense.amount\n    END AS salary_expenditure_percentage\nFROM (\n    SELECT amount\n    FROM temp_month_salary\n    WHERE orgName LIKE '%\u5174\u9686\u5e84%' AND subjectName = '\u7efc\u91c7\u4e00\u533a' AND itemName LIKE '%\u603b\u652f\u51fa%' AND stlMonth LIKE '2024-03%'\n) AS total_expense;"
+    },
+    {
+        "question": "    \u5174\u9686\u5e84\u4eca\u5e743\u6708\u4efd\u7efc\u91c7\u4e00\u533a\u7684\u5de5\u8d44\u652f\u51fa\u5360\u603b\u652f\u51fa\u7684\u767e\u5206\u6bd4\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT \n    CASE \n        WHEN total_expense.amount = 0 THEN 'N/A'\n        ELSE\n            ROUND((SELECT amount FROM temp_month_salary WHERE orgName LIKE '%\u5174\u9686\u5e84%' AND subjectName = '\u7efc\u91c7\u4e00\u533a' AND itemName LIKE '%\u5de5\u8d44\u652f\u51fa%' AND stlMonth LIKE '2024-03%') /\n            total_expense.amount * 100, 2)\n    END AS salary_expenditure_percentage\nFROM (\n    SELECT amount\n    FROM temp_month_salary\n    WHERE orgName LIKE '%\u5174\u9686\u5e84%' AND subjectName = '\u7efc\u91c7\u4e00\u533a' AND itemName LIKE '%\u603b\u652f\u51fa%' AND stlMonth LIKE '2024-03%'\n) AS total_expense;"
+    },
+    {
+        "question": "    \u5174\u9686\u5e84\u4eca\u5e743\u6708\u4efd\u7efc\u91c7\u4e00\u533a\u7684\u5de5\u8d44\u652f\u51fa\u4e0e\u627f\u5305\u5de5\u8d44\u6536\u5165\u7684\u5dee\u989d\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT \n    (SELECT amount FROM temp_month_salary WHERE orgName LIKE '%\u5174\u9686\u5e84%' AND subjectName = '\u7efc\u91c7\u4e00\u533a' AND itemName LIKE '%\u5de5\u8d44\u652f\u51fa%' AND stlMonth LIKE '2024-03%') -\n    (SELECT amount FROM temp_month_salary WHERE orgName LIKE '%\u5174\u9686\u5e84%' AND subjectName = '\u7efc\u91c7\u4e00\u533a' AND itemName LIKE '%\u627f\u5305\u5de5\u8d44\u6536\u5165%' AND stlMonth LIKE '2024-03%') AS difference;"
+    },
+    {
+        "question": "    \u5174\u9686\u5e84\u4eca\u5e743\u6708\u4efd\u7efc\u91c7\u4e00\u533a\u7684\u5de5\u8d44\u652f\u51fa\u4e0e\u603b\u6536\u5165\u7684\u6bd4\u4f8b\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT \n    CASE \n        WHEN total_income.amount = 0 THEN 'N/A'\n        ELSE\n            ROUND((SELECT amount FROM temp_month_salary WHERE orgName LIKE '%\u5174\u9686\u5e84%' AND subjectName = '\u7efc\u91c7\u4e00\u533a' AND itemName LIKE '%\u5de5\u8d44\u652f\u51fa%' AND stlMonth LIKE '2024-03%') /\n            total_income.amount * 100, 2)\n    END AS salary_expenditure_to_total_income_percentage\nFROM (\n    SELECT amount\n    FROM temp_month_salary\n    WHERE orgName LIKE '%\u5174\u9686\u5e84%' AND subjectName = '\u7efc\u91c7\u4e00\u533a' AND itemName LIKE '%\u603b\u6536\u5165%' AND stlMonth LIKE '2024-03%'\n) AS total_income;"
+    },
+    {
+        "question": "\u65b0\u77ff\u96c6\u56e22023\u5e745\u6708\u4efd\u533a\u961f\u6708\u5ea6\u5e73\u5747\u5de5\u8d44\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT\n    orgName,\n    SUM(CASE WHEN itemName = '\u533a\u961f\u5e02\u573a\u5316\u5151\u73b0\u5de5\u8d44\u603b\u989d' THEN amount ELSE 0 END) /\n    SUM(CASE WHEN itemName = '\u533a\u961f\u4eba\u6570' THEN amount ELSE 1 END) AS monthly_average_salary,\n    CASE\n        WHEN SUM(CASE WHEN itemName = '\u533a\u961f\u4eba\u6570' THEN amount ELSE 1 END) = 0 THEN '\u533a\u961f\u4eba\u6570\u4e3a0'\n        ELSE '\u6b63\u5e38'\n    END AS status\nFROM\n    temp_month_salary\nWHERE\n    orgName IN (\n        SELECT\n            name\n        FROM\n            sys_subject\n        WHERE\n            parent = (\n                SELECT\n                    id\n                FROM\n                    sys_subject\n                WHERE\n                    name = '\u65b0\u77ff\u96c6\u56e2'\n            )\n    )\n    AND stlMonth = '2023-05'\nGROUP BY\n    orgName;"
+    },
+    {
+        "question": "\u65b0\u77ff\u96c6\u56e22023\u5e746\u6708\u4efd\u5de5\u4eba\u6708\u5ea6\u5e73\u5747\u5de5\u8d44\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT\n    SUM(CASE WHEN itemName = '\u5de5\u4eba\u5e02\u573a\u5316\u5151\u73b0\u5de5\u8d44\u603b\u989d' THEN amount ELSE 0 END) /\n    CASE\n        WHEN SUM(CASE WHEN itemName = '\u5de5\u4eba\u4eba\u6570' THEN amount ELSE 0 END) = 0 THEN NULL\n        ELSE SUM(CASE WHEN itemName = '\u5de5\u4eba\u4eba\u6570' THEN amount ELSE 1 END)\n    END AS average_worker_monthly_salary,\n    CASE\n        WHEN SUM(CASE WHEN itemName = '\u5de5\u4eba\u4eba\u6570' THEN amount ELSE 0 END) = 0 THEN '\u5de5\u4eba\u4eba\u6570\u4e3a0'\n        ELSE '\u6b63\u5e38'\n    END AS status\nFROM\n    temp_month_salary\nWHERE\n    orgName IN (\n        SELECT\n            name\n        FROM\n            sys_subject\n        WHERE\n            parent = (\n                SELECT\n                    id\n                FROM\n                    sys_subject\n                WHERE\n                    name = '\u65b0\u77ff\u96c6\u56e2'\n            )\n    )\n    AND stlMonth = '2023-06';"
+    },
+    {
+        "question": "\u65b0\u77ff\u96c6\u56e22023\u5e747\u6708\u4efd\u7ba1\u7406\u4eba\u5458\u6708\u5ea6\u5e73\u5747\u5de5\u8d44\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT\n    SUM(CASE WHEN itemName = '\u7ba1\u7406\u4eba\u5458\u5e02\u573a\u5316\u5151\u73b0\u5de5\u8d44\u603b\u989d' THEN amount ELSE 0 END) /\n    CASE\n        WHEN SUM(CASE WHEN itemName = '\u7ba1\u7406\u4eba\u5458\u4eba\u6570' THEN amount ELSE 0 END) = 0 THEN NULL\n        ELSE SUM(CASE WHEN itemName = '\u7ba1\u7406\u4eba\u5458\u4eba\u6570' THEN amount ELSE 1 END)\n    END AS average_worker_monthly_salary,\n    CASE\n        WHEN SUM(CASE WHEN itemName = '\u7ba1\u7406\u4eba\u5458\u4eba\u6570' THEN amount ELSE 0 END) = 0 THEN '\u7ba1\u7406\u4eba\u5458\u4eba\u6570\u4e3a0'\n        ELSE '\u6b63\u5e38'\n    END AS status\nFROM\n    temp_month_salary\nWHERE\n    orgName IN (\n        SELECT\n            name\n        FROM\n            sys_subject\n        WHERE\n            parent = (\n                SELECT\n                    id\n                FROM\n                    sys_subject\n                WHERE\n                    name = '\u65b0\u77ff\u96c6\u56e2'\n            )\n    )\n    AND stlMonth = '2023-06';"
+    },
+    {
+        "question": "2023\u5e74\u65b0\u77ff\u96c6\u56e2\u5404\u5355\u4f4d\u4eba\u5747\u5de5\u8d44\u5206\u522b\u662f\u591a\u5c11\uff1f\u6700\u9ad8\u7684\u662f\u54ea\u4e2a\u5355\u4f4d\uff1f\u6700\u4f4e\u7684\u662f\u54ea\u4e2a\u5355\u4f4d\uff1f",
+        "sql": "SELECT\n    orgName,\n    SUM(CASE WHEN itemName = '\u5e02\u573a\u5316\u5de5\u8d44\u6536\u5165' THEN amount ELSE 0 END) / SUM(CASE WHEN itemName = '\u5de5\u4eba\u4eba\u6570' THEN amount ELSE 1 END) AS average_salary\nFROM\n    temp_month_salary\nWHERE\n    stlMonth like '2023%'\n    AND orgName IN (\n        SELECT name\n        FROM sys_subject\n        WHERE name = '\u65b0\u77ff\u96c6\u56e2'\n        OR (parent IN (SELECT id FROM sys_subject WHERE name = '\u65b0\u77ff\u96c6\u56e2') AND market = '3')\n    )\nGROUP BY\n    orgName\nORDER BY\n    average_salary DESC;"
+    },
+    {
+        "question": "2023\u5e74\u65b0\u77ff\u96c6\u56e2\u5404\u5355\u4f4d\u5428\u7164\u6210\u672c\u5206\u522b\u662f\u591a\u5c11\uff1f\u6700\u9ad8\u7684\u662f\u54ea\u4e2a\u5355\u4f4d\uff1f\u6700\u4f4e\u7684\u662f\u54ea\u4e2a\u5355\u4f4d\uff1f",
+        "sql": "SELECT\n    orgName,\n    SUM(CASE WHEN itemName = '\u5546\u54c1\u7164\u6536\u5165' THEN amount ELSE 0 END) / SUM(CASE WHEN itemName = '\u5546\u54c1\u7164\u4ea7\u91cf' THEN amount ELSE 1 END) AS average_salary\nFROM\n    temp_month_salary\nWHERE\n    stlMonth like '2023%'\n    AND orgName IN (\n        SELECT name\n        FROM sys_subject\n        WHERE name = '\u65b0\u77ff\u96c6\u56e2'\n        OR (parent IN (SELECT id FROM sys_subject WHERE name = '\u65b0\u77ff\u96c6\u56e2') AND market = '3')\n    )\nGROUP BY\n    orgName\nORDER BY\n    average_salary DESC;"
+    },
+    {
+        "question": "2023\u5e746\u6708\u65b0\u77ff\u96c6\u56e2\u5404\u5355\u4f4d\u5e02\u573a\u5316\u5de5\u8d44\u5360\u6bd4\u5206\u522b\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT\n    orgName,\n    SUM(CASE WHEN itemName = '\u5e02\u573a\u5316\u5de5\u8d44\u6536\u5165' THEN amount ELSE 0 END) / total_income AS proportion\nFROM\n    temp_month_salary t\nJOIN\n    (SELECT\n        SUM(CASE WHEN itemName = '\u5de5\u8d44\u6536\u5165' THEN amount ELSE 0 END) AS total_income\n    FROM\n        temp_month_salary\n    WHERE\n        stlMonth = '2023-06'\n    ) mi ON 1=1\nWHERE\n    stlMonth = '2023-06'\n    AND orgName IN (\n        SELECT name\n        FROM sys_subject\n        WHERE name = '\u65b0\u77ff\u96c6\u56e2'\n        OR (parent IN (SELECT id FROM sys_subject WHERE name = '\u65b0\u77ff\u96c6\u56e2') AND market = '3')\n    )\nGROUP BY\n    orgName, total_income;"
+    },
+    {
+        "question": "\u65b0\u77ff\u96c6\u56e22023\u5e745\u6708\u5e02\u573a\u5316\u5de5\u8d44\u6536\u5165\u6700\u4f4e\u3001\u6700\u9ad8\u7684\u5e02\u573a\u4e3b\u4f53\u662f\u54ea\u4e9b\uff1f\u5206\u522b\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT\n    orgName,\n    MIN(CASE WHEN itemName = '\u5e02\u573a\u5316\u5de5\u8d44\u6536\u5165' THEN amount ELSE NULL END) AS min_market_income,\n    MAX(CASE WHEN itemName = '\u5e02\u573a\u5316\u5de5\u8d44\u6536\u5165' THEN amount ELSE NULL END) AS max_market_income\nFROM\n    temp_month_salary\nWHERE\n    stlMonth = '2023-05'\n    AND orgName IN (\n        SELECT\n            name\n        FROM\n            sys_subject\n        WHERE\n            parent = (\n                SELECT\n                    id\n                FROM\n                    sys_subject\n                WHERE\n                    name = '\u65b0\u77ff\u96c6\u56e2'\n            )\n    )\nGROUP BY\n    orgName;"
+    },
+    {
+        "question": "\u65b0\u77ff\u96c6\u56e22024\u5e743\u6708\u4efd\u7ba1\u7406\u4eba\u5458\u5de5\u8d44\u4e0e\u5de5\u4eba\u5de5\u8d44\u4e4b\u6bd4\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT\n    CASE\n        WHEN SUM(CASE WHEN itemName = '\u5de5\u4eba\u5de5\u8d44' THEN amount ELSE 0 END) = 0 THEN NULL\n        ELSE SUM(CASE WHEN itemName = '\u7ba1\u7406\u4eba\u5458\u5de5\u8d44' THEN amount ELSE 0 END) /\n             SUM(CASE WHEN itemName = '\u5de5\u4eba\u5de5\u8d44' THEN amount ELSE 1 END)\n    END AS management_to_worker_salary_ratio,\n    CASE\n        WHEN SUM(CASE WHEN itemName = '\u5de5\u4eba\u5de5\u8d44' THEN amount ELSE 0 END) = 0 THEN '\u5de5\u4eba\u5de5\u8d44\u4e3a0'\n        ELSE '\u6b63\u5e38'\n    END AS status\nFROM\n    temp_month_salary\nWHERE\n    orgName IN (\n        SELECT\n            name\n        FROM\n            sys_subject\n        WHERE\n            parent = (\n                SELECT\n                    id\n                FROM\n                    sys_subject\n                WHERE\n                    name = '\u65b0\u77ff\u96c6\u56e2'\n            )\n    )\n    AND stlMonth = '2024-03';"
+    },
+    {
+        "question": "\u65b0\u77ff\u96c6\u56e2\u6bcf\u6708\u5de5\u4eba\u5e02\u573a\u5316\u5de5\u8d44\u7684\u8d8b\u52bf\u5982\u4f55\uff1f",
+        "sql": "SELECT\n    stlMonth,\n    SUM(amount) AS total_worker_salary\nFROM\n    temp_month_salary\nWHERE\n    orgName IN (\n        SELECT\n            name\n        FROM\n            sys_subject\n        WHERE\n            parent = (\n                SELECT\n                    id\n                FROM\n                    sys_subject\n                WHERE\n                    name = '\u65b0\u77ff\u96c6\u56e2'\n            )\n    )\n    AND itemName LIKE '%\u5de5\u4eba\u5e02\u573a\u5316\u5de5\u8d44%'\nGROUP BY\n    stlMonth\nORDER BY\n    stlMonth;"
+    },
+    {
+        "question": "\u5c71\u80fd\u96c6\u56e22023\u5e745\u6708\u5e02\u573a\u5316\u5de5\u8d44\u6536\u5165\u6700\u4f4e\u3001\u6700\u9ad8\u7684\u5e02\u573a\u4e3b\u4f53\u662f\u54ea\u4e9b\uff1f\u5206\u522b\u662f\u591a\u5c11\uff1f",
+        "sql": "SELECT\n\t\torgName,\n    subjectName,\n    SUM(CASE WHEN itemName = '\u5e02\u573a\u5316\u5de5\u8d44\u6536\u5165' THEN amount ELSE 0 END) AS total_income\nFROM\n    temp_month_salary\nWHERE\n    stlMonth = '2023-05'\n    AND orgName IN (\n        SELECT name\n        FROM sys_subject\n        WHERE idPath LIKE CONCAT((SELECT idPath FROM sys_subject WHERE name = '\u5c71\u80fd\u96c6\u56e2'), '%')\n        AND market = '3'\n    )\nGROUP BY\n    orgName,subjectName\nORDER BY\n    total_income ASC;"
+    }
+]
